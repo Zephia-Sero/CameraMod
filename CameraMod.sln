@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraMod", "CameraMod\CameraMod.csproj", "{4A8B990F-5C25-4AE7-92D6-D4AEA196EEF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildDeps", "BuildDeps", "{8F3A2027-8D7F-4E6A-9847-EF50B69DB7CC}"
+	ProjectSection(SolutionItems) = preProject
+		BuildDeps\0Harmony.dll = BuildDeps\0Harmony.dll
+		BuildDeps\Assembly-CSharp.dll = BuildDeps\Assembly-CSharp.dll
+		BuildDeps\UnityEngine.CoreModule.dll = BuildDeps\UnityEngine.CoreModule.dll
+		BuildDeps\ZGenesis.dll = BuildDeps\ZGenesis.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{342A4D4E-1823-47C6-96A5-9A37EC94E193}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A8B990F-5C25-4AE7-92D6-D4AEA196EEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8B990F-5C25-4AE7-92D6-D4AEA196EEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8B990F-5C25-4AE7-92D6-D4AEA196EEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8B990F-5C25-4AE7-92D6-D4AEA196EEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E173DFA-4A9F-4800-91F4-81F2BB61B827}
+	EndGlobalSection
+EndGlobal
